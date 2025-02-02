@@ -69,7 +69,7 @@ hr {
     background: rgba(255, 255, 255, 0.611);
     color: #333;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 9.9px;
     transition: 0.3s;
     width: 90%;
     max-width: 500px;
@@ -90,9 +90,9 @@ footer {
     color: #333;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 560px) {
     .container {
-        width: 90%;
+        width: 88%;
         margin: 20px auto;
         padding: 15px;
     }
