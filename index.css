@@ -48,7 +48,7 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    width: 90%;
+    width: 100%;
 }
 
 .plinks {
@@ -57,7 +57,7 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    width: 90%;
+    width: 100%;
     font-family: "Noto Sans JP", serif;
 }
 
@@ -71,7 +71,7 @@ hr {
     text-decoration: none;
     border-radius: 9.3px;
     transition: 0.3s;
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     font-size: 1.2em;
     font-weight: bold;
