@@ -1,112 +1,112 @@
 body {
-    background: url('bk.webp') no-repeat center;
-    background-size: cover;
-    font-family: "Ubuntu", serif;
-    font-style: normal;
+  background: url("bk.webp") no-repeat center;
+  background-size: cover;
+  font-family: "Ubuntu", serif;
+  font-style: normal;
 }
 
 .container {
-    max-width: 900px;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    margin: 50px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 h1 {
-    align-items: center;
-    color: #333;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  align-items: center;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 .icon {
-    align-items: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 30%;
-    object-fit: cover;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 30%;
+  object-fit: cover;
 }
 h2 {
-    color: #333;
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: rgb(255, 255, 255);
-    margin: 30px auto;
-    width: 80%;
+  border: 0;
+  height: 1px;
+  background: rgb(255, 255, 255);
+  margin: 30px auto;
+  width: 80%;
 }
 
 .links {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
 
 .plinks {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    font-family: "Noto Sans JP", serif;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  font-family: "Noto Sans JP", serif;
 }
 
 .links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.611);
-    color: #333;
-    text-decoration: none;
-    border-radius: 9.3px;
-    transition: 0.3s;
-    width: 100%;
-    max-width: 500px;
-    font-size: 1.2em;
-    font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.611);
+  color: #333;
+  text-decoration: none;
+  border-radius: 9.3px;
+  transition: 0.3s;
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .links a:hover {
-    background: rgba(255, 255, 255, 0.87);
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.87);
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 footer {
-    margin-top: 30px;
-    font-size: 1.3rem;
-    color: #333;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: #333;
 }
 
 @media (max-width: 560px) {
-    .container {
-        width: 83%;
-        margin: 20px auto;
-        padding: 15px;
-    }
+  .container {
+    width: 83%;
+    margin: 20px auto;
+    padding: 15px;
+  }
 
-    h1 {
-        font-size: 1.8rem;
-    }
+  h1 {
+    font-size: 1.8rem;
+  }
 
-    h2 {
-        font-size: 1.3rem;
-    }
+  h2 {
+    font-size: 1.3rem;
+  }
 
-    .links a {
-        width: 100%;
-        font-size: 1.1em;
-    }
+  .links a {
+    width: 100%;
+    font-size: 1.1em;
+  }
 }
