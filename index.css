@@ -23,8 +23,6 @@ h1 {
 }
 .icon {
   align-items: center;
-  width: 35px;
-  height: 35px;
   border-radius: 30%;
   object-fit: cover;
 }
