@@ -21,11 +21,6 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-.icon {
-  align-items: center;
-  border-radius: 30%;
-  object-fit: cover;
-}
 h2 {
   color: #333;
   font-size: 1.5rem;
@@ -82,10 +77,15 @@ hr {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-footer {
+footer p {
   margin-top: 30px;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: #333;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
 }
 
 @media (max-width: 560px) {
