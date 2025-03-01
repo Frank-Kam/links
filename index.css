@@ -81,6 +81,28 @@ hr {
   transform: scale(1.05);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
+.links b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.611);
+  color: #333;
+  text-decoration: none;
+  border-radius: 9.3px;
+  transition: 0.3s;
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links b:hover {
+  background: rgba(255, 255, 255, 0.87);
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
 
 footer p {
   margin-top: 30px;
