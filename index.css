@@ -1,5 +1,5 @@
 body {
-  background: url("bk.webp") no-repeat center;
+  background: url("/bk.webp") center no-repeat fixed;
   background-size: cover;
   font-family: "Ubuntu", serif;
   font-style: normal;
