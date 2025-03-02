@@ -104,14 +104,15 @@ hr {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-footer p{
+footer {
   margin-top: 30px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: black;
 }
 
 footer a {
   color: black;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
