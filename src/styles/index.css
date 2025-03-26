@@ -51,8 +51,7 @@ hr {
   width: 100%;
 }
 
-.links a, 
-.spotify-embeds iframe{
+.links a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,25 +82,6 @@ hr {
   vertical-align: middle;
 }
 
-.spotify-embeds {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  width: 100%;
-}
-
-.spotify-embeds iframe {
-  border-radius: 12px;
-  width: 100%;
-  max-width: 500px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.spotify-embeds iframe:hover {
-  transform: scale(1.03);
-}
 
 
 @media (max-width: 560px) {
@@ -119,8 +99,7 @@ hr {
     font-size: 1.3rem;
   }
 
-  .links a,
-  .spotify-embeds iframe {
+  .links a{
     width: 100%;
     font-size: 1.1em;
   }
