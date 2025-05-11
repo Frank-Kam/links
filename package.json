@@ -1,12 +1,21 @@
 {
-  "name": "terrestrial-trappist",
+  "name": "astro-linkpage",
   "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+  "version": "0.0.2",
+  "homepage": "https://blog.frankk.uk",
+  "bugs": {
+    "url": "https://github.com/Frank-Kam/links/issues",
+    "email": "ganl68384@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frank-Kam/links.git"
+  },
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Frank Kam",
+    "email": "ganl68384@gmail.com",
+    "url": "https://frankk.uk"
   },
   "dependencies": {
     "astro": "^5.7.12"
