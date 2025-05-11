@@ -2,7 +2,8 @@ body {
   background: url("../assets/bk.webp") center no-repeat fixed;
   background-size: cover;
   font-family: "Ubuntu", sans-serif; 
-  font-display: swap; 
+  font-display: swap;
+  overflow: hidden;
 }
 
 .container {
