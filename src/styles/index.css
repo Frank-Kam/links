@@ -3,7 +3,14 @@ body {
   background-size: cover;
   font-family: "Ubuntu", sans-serif; 
   font-display: swap;
-  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;                 /* Chrome, Safari 和新版 Edge */
+}
+
+html {
+  scrollbar-width: none;
 }
 
 .container {
