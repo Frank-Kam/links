@@ -4,6 +4,19 @@ body {
   background-size: cover;
   font-family: "Ubuntu", serif;
   font-style: normal;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+
+
+  display: none;                 /* Chrome, Safari 和新版 Edge */
+
+
+}
+
+html {
+  scrollbar-width: none;
 }
 
 .container {
