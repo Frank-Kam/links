@@ -6,7 +6,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and new Edge */
+  display: none;
 }
 
 html {
@@ -94,110 +94,23 @@ hr {
   vertical-align: middle;
 }
 
-/* Giscus Comment Section Styles */
-.giscus-container {
-  margin-top: 30px;
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.24);
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.giscus-container h3 {
-  color: black;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  font-family: "Ubuntu", sans-serif;
-  font-display: swap;
-  text-align: center;
-}
-
-/* Style Giscus iframe and its contents */
-.giscus {
-  width: 100%;
-  min-height: 300px;
-  border: none;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-/* Override Giscus internal styles using !important where necessary */
-.giscus iframe {
-  background: transparent !important;
-}
-
-.giscus iframe body {
-  font-family: "Ubuntu", sans-serif !important;
-  background: rgba(255, 255, 255, 0.24) !important;
-  color: black !important;
-}
-
-.giscus iframe .giscus-comment {
-  background: rgba(255, 255, 255, 0.493) !important;
-  border-radius: 8px !important;
-  padding: 10px !important;
-  margin-bottom: 10px !important;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
-}
-
-.giscus iframe .giscus-comment:hover {
-  background: rgba(255, 255, 255, 0.705) !important;
-}
-
-.giscus iframe .giscus-comment-input {
-  background: rgba(255, 255, 255, 0.493) !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 8px !important;
-  color: black !important;
-  font-family: "Ubuntu", sans-serif !important;
-}
-
-.giscus iframe .giscus-button {
-  background: rgba(255, 255, 255, 0.493) !important;
-  color: black !important;
-  border-radius: 8px !important;
-  padding: 8px 16px !important;
-  transition: all 0.3s ease !important;
-}
-
-.giscus iframe .giscus-button:hover {
-  background: rgba(255, 255, 255, 0.705) !important;
-  transform: scale(1.05) !important;
-}
-
 @media (max-width: 560px) {
   .container {
-    width: 83%;
-    margin: 20px auto;
-    padding: 15px;
+      width: 83%;
+      margin: 20px auto;
+      padding: 15px;
   }
 
   h1 {
-    font-size: 1.8rem;
+      font-size: 1.8rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+      font-size: 1.3rem;
   }
 
   .links a {
-    width: 100%;
-    font-size: 1.1em;
-  }
-
-  .giscus-container {
-    padding: 10px;
-  }
-
-  .giscus-container h3 {
-    font-size: 1.5rem;
-  }
-
-  .giscus {
-    min-height: 250px;
+      width: 100%;
+      font-size: 1.1em;
   }
 }
