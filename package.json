@@ -17,6 +17,15 @@
     "email": "ganl68384@gmail.com",
     "url": "https://frankk.uk"
   },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "astro": "^5.7.12"
   },
