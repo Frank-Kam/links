@@ -2,7 +2,7 @@
   "name": "astro-linkpage",
   "type": "module",
   "version": "0.0.2",
-  "homepage": "https://blog.frankk.uk",
+  "homepage": "https://frankk.uk",
   "bugs": {
     "url": "https://github.com/Frank-Kam/links/issues",
     "email": "ganl68384@gmail.com"
@@ -13,7 +13,7 @@
   },
   "license": "AGPL-3.0",
   "author": {
-    "name": "Frank Kam",
+    "name": "Frank-Kam",
     "email": "ganl68384@gmail.com",
     "url": "https://frankk.uk"
   },
