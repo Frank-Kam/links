@@ -27,7 +27,9 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "astro": "^5.7.12"
+    "@astrojs/image": "^0.18.0",
+    "astro": "^5.7.12",
+    "sharp": "^0.34.1"
   },
   "devDependencies": {
     "@types/estree": "^1.0.7"

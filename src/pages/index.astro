@@ -1,27 +1,28 @@
 ---
 import "../styles/index.css";
 import Layout from "../layouts/Layout.astro";
+import avatar from '../images/avatar.webp'; // 確保這個檔案存在於該位置
+import { Image } from 'astro:assets';
 ---
 
 <Layout>
-</Layout>
-<body>
   <div class="container">
-    <h1>Frank</h1>
-
+    <div class="header">
+      <Image src={avatar} width="1156" height="907" alt="" class="avatar" />
+      <h1>Frank</h1>
+    </div>
+    <p class="intro">Linux Lover & CTF Player & Junior Full-Stack Dev</br>High School Student from Taiwan</p>
     <hr/>
 
     <div class="links">
-      
-
       <h2>Social <i class="fa-solid fa-link"></i> :</h2>
       <a href="https://instagram.com/frk.tw" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
       <a href="https://www.threads.net/@frk.tw" target="_blank"><i class="fa-brands fa-threads"></i>Threads</a>
-      <a href="https://g0v.social/@frk_tw" target="_blank"><i class="fa-brands fa-mastodon"></i></i>Mastodon</a>
+      <a href="https://g0v.social/@frk_tw" target="_blank"><i class="fa-brands fa-mastodon"></i>Mastodon</a>
       <a href="https://discord.com/users/988032182083805235" target="_blank"><i class="fa-brands fa-discord"></i>Discord</a>
       <a href="https://x.com/ganl68384" target="_blank"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
       <a href="https://t.me/frankkam1214" target="_blank"><i class="fa-brands fa-telegram"></i>Telegram</a>
-      <a href="mailto:mail@frankk.uk" target="_blank"><i class="fa-regular fa-envelope"></i>Email</a>
+      <a href="mailto:ganl68384@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i>Email</a>
       <a href="https://blog.frankk.uk/?utm_source=linkt" target="_blank"><i class="fa-solid fa-rss"></i>Blog</a>
       <a href="https://github.com/Frank-Kam" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
     </div>
@@ -33,7 +34,6 @@ import Layout from "../layouts/Layout.astro";
       <a href="https://status.frankk.uk/?utm_source=linkt" target="_blank"><i class="fa-solid fa-signal"></i>Status</a>
       <a href="https://ic3dt3a.org/" target="_blank"><i class="fa-solid fa-hat-cowboy"></i>ICDETEA CTF</a>
     </div>
-      <hr/>
+    <hr/>
   </div>
-</body>
-</html>
+</Layout>

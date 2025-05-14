@@ -1,18 +1,12 @@
-
 body {
-  background: url("../assets/bk.webp") center no-repeat fixed;
-  background-size: cover;
+  background: url("../assets/bk.webp") center center / cover no-repeat fixed;
   font-family: "Ubuntu", serif;
   font-style: normal;
   overflow: auto;
 }
 
 body::-webkit-scrollbar {
-
-
   display: none;
-
-
 }
 
 html {
@@ -27,10 +21,41 @@ html {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  backdrop-filter: blur(1.25px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 9.3px;
+  margin: 20px auto;
+  max-width: 500px;
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  transition: background 0.3s, transform 0.3s;
 }
 
 h1 {
-  align-items: center;
   color: black;
   font-size: 2.8rem;
   margin-bottom: 10px;
@@ -64,8 +89,7 @@ hr {
   width: 100%;
 }
 
-.links a, 
-.spotify-embeds iframe{
+.links a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,48 +98,31 @@ hr {
   color: black;
   text-decoration: none;
   border-radius: 9.3px;
-  transition: 0.3s;
   width: 100%;
   max-width: 500px;
   font-size: 1.2em;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
 }
 
 .links a:hover {
-  background: rgba(255, 255, 255, 0.705);
+  background: rgba(255, 255, 255, 0.6);
   transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.links a i, .links b i {
+.links a i,
+.links b i {
   font-size: 1.5em;
   margin-right: 33px;
   line-height: 0;
   vertical-align: middle;
+  opacity: 0.85;
 }
-
-.spotify-embeds {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  width: 100%;
-}
-
-.spotify-embeds iframe {
-  border-radius: 12px;
-  width: 100%;
-  max-width: 500px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.spotify-embeds iframe:hover {
-  transform: scale(1.03);
-}
-
 
 @media (max-width: 560px) {
   .container {
@@ -132,8 +139,7 @@ hr {
     font-size: 1.3rem;
   }
 
-  .links a,
-  .spotify-embeds iframe {
+  .links a {
     width: 100%;
     font-size: 1.1em;
   }
