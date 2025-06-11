@@ -1,3 +1,10 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 body {
   background: url("../assets/bk.webp") center center / cover no-repeat fixed;
   font-family: "Ubuntu", serif;

@@ -11,6 +11,9 @@ importers:
       '@astrojs/image':
         specifier: ^0.18.0
         version: 0.18.0(astro@5.9.1(@types/node@22.15.30)(rollup@4.42.0)(typescript@5.8.2))(sharp@0.34.2)
+      '@fortawesome/fontawesome-free':
+        specifier: ^6.7.2
+        version: 6.7.2
       astro:
         specifier: ^5.9.1
         version: 5.9.1(@types/node@22.15.30)(rollup@4.42.0)(typescript@5.8.2)
@@ -226,6 +229,10 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fortawesome/fontawesome-free@6.7.2':
+    resolution: {integrity: sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==}
+    engines: {node: '>=6'}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1769,6 +1776,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.5':
     optional: true
+
+  '@fortawesome/fontawesome-free@6.7.2': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
