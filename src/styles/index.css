@@ -1,14 +1,14 @@
 @import '@fortawesome/fontawesome-free/css/all.css';
 @font-face {
   font-family: 'Ubuntu';
-  src: url('font.woff2') format('woff2');  
+  src: url('/font.woff2') format('woff2');  
   font-weight: 700;
-  font-style: normal;
+  font-style: swap;
 }
 body {
   background: url("../assets/bk.webp") center center / cover no-repeat fixed;
   font-family: "Ubuntu", serif;
-  font-style: normal;
+  font-style: swap;
   overflow: auto;
 }
 
