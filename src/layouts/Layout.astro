@@ -6,15 +6,6 @@
   <link rel="icon" type="image/webp" sizes="32x32" href="/favicon.webp" />
   <link rel="icon" type="image/webp" sizes="16x16" href="/favicon.webp" />
   <title>Frank</title>
-  <script is:inline src="/lenis.min.js"></script>
-        <script is:inline>
-        const lenis = new Lenis()
-        function raf(time) {
-            lenis.raf(time)
-            requestAnimationFrame(raf)
-        }
-        requestAnimationFrame(raf)
-  </script>
   <slot />
 
 </head>
