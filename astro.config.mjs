@@ -1,7 +1,7 @@
 import { defineConfig, sharpImageService } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://frankk.uk',
+  site: 'https://frk.tw',
   image: {
     service: sharpImageService(),
   },
